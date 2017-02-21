@@ -140,7 +140,9 @@ class ViewController: UIViewController {
 
             GalleryConfigurationItem.statusBarHidden(true),
             GalleryConfigurationItem.displacementKeepOriginalInPlace(false),
-            GalleryConfigurationItem.displacementInsetMargin(50)
+            GalleryConfigurationItem.displacementInsetMargin(50),
+            GalleryConfigurationItem.decorationViewsFadeDuration(0.5),
+            GalleryConfigurationItem.toggleDecorationViewsBySingleTap(true)
         ]
     }
 }
